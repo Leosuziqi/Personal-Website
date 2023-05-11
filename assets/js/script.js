@@ -1,28 +1,11 @@
-let theme = localStorage.getItem('theme')
-
-if(theme == null){
-	setTheme('light')
-}else{
-	setTheme(theme)
-}
-
-let themeDots = document.getElementsByClassName('theme-dot')
-
-for (var i=0; i < themeDots.length; i++){
-    themeDots[i].addEventListener('click', function(){
-        let mode = this.dataset.mode
-        setTheme(mode)
-    })
-}
-
-function setTheme(mode){
-    if(mode == 'light'){
-        document.getElementById('theme-style').href='assets/css/default.css'
+function thumbs() {
+    const buttonElement = document.querySelector('.fa');
+ 
+    if (buttonElement.style.color === 'grey') {
+      buttonElement.style.background = 'none';
+      buttonElement.style.color = 'rgb(207, 64, 64)';
+    } else {
+      buttonElement.style.background = 'none';
+      buttonElement.style.color = 'grey';
     }
-    
-    if(mode == 'dark'){
-        document.getElementById('theme-style').href='assets/css/dark.css'
-    }
-
-    localStorage.setItem('theme', mode)
-}
+  }
