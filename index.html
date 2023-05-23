@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ziqi(Leo) Su</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <link id="theme-style" rel="stylesheet" href="" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="left-section">
+            <a href="#home-start">Home</a>
+        </div>
+        <div class="middle-section">
+          <input class="search-bar" type="text" placeholder="Search Skills">
+          <button class="search-button">
+            <img class="search-icon" src="icons/search.svg">
+            <div class="tooltip">Search</div>
+          </button>
+        </div>
+        <div class="right-section">
+            <a href="#skill-set">Skills</a>
+            <a href="#pjt">Projects</a>
+            <a href="#proj">Resume</a>
+            <a href="#social">Contact</a>
+        </div>
+                
+        <div>
+            <button class="fa fa-thumbs-up fa-3x like"
+                onclick="thumbs(); " >
+            </button>
+        </div>
+    </div>
+
+    <section class="s1" id="home-start">
+        <div class="main-container">
+            <div class="intro-wrapper">
+                <div class="right-column">
+                    <img id="profile_pic", src="picture/profile_image.jpg">
+                </div>
+
+                <div class="left-column">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+                            <h1 class="self-intro" id="intro">Hi, I Am</h1>
+                            <h1 class="self-intro" id="intro2">Ziqi(Leo) Su.</h1>
+                            <h4> An Electrical and Computer Engineer Graduate from the University of British</h4>
+                            <h5>Currently a Controls Engineer at FPS Inc.</h5>
+                            <div id="corner-br" class="corner"></div>
+                            <div id="corner-bl" class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+
+            <div class="about-wrapper" id="social">
+                <div class="about-me">
+                    <h2>More about me</h2>
+                    <p>A recent graduate of the University of British Columbia with a Master of Engineering's Degree.</p>
+                    <p>I am currently seeking a Software Development Engineer position to leverage my skills in programming languages, problem-solving, and teamwork to contribute to the development of innovative software products.</p>
+                
+                <div>
+
+                    <div class="social-links">
+                        <h3 id="social-area">Find me on the following social platforms</h3>
+                        <!-- <p>Description</p> -->
+                        <ul class="social-menu">
+                            <li><a target="_blank" href="https://github.com/Leosuziqi"><i class="fab fa-github"></i></a></li>
+
+                            <li><a target="_blank" href="https://www.linkedin.com/in/ziqi-su-205a68180/"><i class="fab fa-linkedin"></i></a></li>
+
+                            <li><a target="_blank" href="https://www.facebook.com/ziqi.su.3/"><i class="fab fa-facebook-square"></i></a></li>
+
+                            <li><a><i class="fab fa-weixin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="bg-picture" id="skill-set">
+        <h2>Skill Sets</h2>
+        <div class="working" id="center">
+            <table id="skills">
+                <tr>
+                    <th style="width:33%">Programming</th>
+                    <th style="width:33%">Dev. Tools</th>
+                    <th style="width:34%">Hardware</th>
+                </tr>
+                <tr>
+                    <td calss="python-table">Python</td>
+                    <td>Django</td>
+                    <td rowspan="2">Circuit Design</td>
+                </tr>
+                <tr>
+                    <td>C/C++</td>
+                    <td>RESTful</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Bootstrap</td>
+                    <td rowspan="2">Microcontroller</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>TypeScript</td>
+                </tr>
+                <tr>
+                    <td>HTML, CSS</td>
+                    <td>Node.js</td>
+                    <td rowspan="2">Simulation</td>
+                </tr>
+                <tr>
+                    <td>R</td>
+                    <td>ASP.NET</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>mySQL/MongoSQL</td>
+                    <td rowspan="2">Oscilloscope</td>
+                </tr>
+                <tr>
+                    <td>Machine Learing</td>
+                    <td>AWS</td>
+                </tr>
+            </table>
+            <div class="logos">
+                <img class="c" id="js-0" onmousemove="zoom(event)" src="picture/c.png">
+                <img class="cpp" id="js-1" src="picture/cpp.png">
+                <img class="cs" id="js-2" src="picture/cs.png">
+                <img class="an" id="js-7" src="picture/angular.png">
+                <img class="r" id="js-10" src="picture/r.png">
+                <img class="ts" id="js-9" src="picture/ts.svg">
+                <img class="vs" id="js-8" src="picture/vs.svg">
+                <img class="python" id="js-11" src="picture/python.png">
+                <img class="sql" id="js-4" src="picture/sql.png">
+                <img class="arduino" id="js-5" src="picture/arduino.png">
+                <img class="html" id="js-6" src="picture/html.png">
+                <img class="git" id="js-3" src="picture/git.png">
+            </div>
+        </div>
+    </div>
+
+
+    <section class="s3">
+        <div class="main-container">
+            <div class="proj" id="pjt">
+                <h2>Some of my past projects</h2>
+            </div>
+            
+            <div class="post-wrapper" id="past-projects">
+                
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/aoc_2021.PNG">
+                        <div class="post-preview">
+                            <h6 class="post-title">Advent of Code 2021</h6>
+                            <p class="post-intro">This annual event was honorly created by Mr. Eric Wastl since 2015. I participate in this event to improve my programming proficiency and thinking abilities.</p>
+                            <a target="_blank" href="https://github.com/zhaoshengEE/Advent_of_Code_2021">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/stock_price_project.png">
+                        <div class="post-preview">
+                            <h6 class="post-title">Stock Price Forecasting</h6>
+                            <p class="post-intro">Implement several regression models and deep learning models to forecast an American gaming merchandise retailer.</p>
+                            <a target="_blank" href="https://github.com/zhaoshengEE/Stock_Price_Forecasting">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/magnet-link-billboard-project.png">
+                        <div class="post-preview">
+                            <h6 class="post-title">Magnet Link Billboard</h6>
+                            <p class="post-intro">Build up a peer-to-peer (P2P) platform that allows users to upload, download, and endorse documents.</p>
+                            <a target="_blank" href="https://github.com/zhaoshengEE/Magnet_Link_Billboard">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/modulation_classification_project.png">
+                        <div class="post-preview">
+                            <h6 class="post-title">Modulation Classification</h6>
+                            <p class="post-intro">Apply artificial neural network and convolutional neural network to classify the modulation formats of input signals.</p>
+                            <a target="_blank" href="https://github.com/zhaoshengEE/Modulation_Classification">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/credit_check_system_project.png">
+                        <div class="post-preview">
+                            <h6 class="post-title">Simple Credit Check System</h6>
+                            <p class="post-intro">Create a simple structure that functions as credit checking based on a neural network behind the scene.</p>
+                            <a target="_blank" href="https://github.com/zhaoshengEE/Credit_Check_System">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/RL-Robocode-project.PNG">
+                        <div class="post-preview">
+                            <h6 class="post-title">Reinforcement Learning with Backpropagation</h6>
+                            <p class="post-intro">Conduct reinforcement learning on a robot in Robocode environment and monitor its learning performance.</p>
+                            <a target="_blank" href="https://github.com/zhaoshengEE/Reinforcement_Learning_with_Backpropagation">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/mMIMO.png">
+                        <div class="post-preview">
+                            <h6 class="post-title">Significant Parameters in the Study of Massive MIMO Systems</h6>
+                            <p class="post-intro">Worked on a research topic raised up by Innovation, Science and Economic Development Canada (ISED)</p>
+                            <a target="_blank" href="doc/Significant Parameters in the Study of Massive MIMO System.pdf">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/logodisplay.js"></script>
+
+</body>
+
+</html>
