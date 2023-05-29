@@ -223,7 +223,9 @@ p{font-size: 24px;}
     border: black;
 }
 
-
+.resume {
+    background-color: var(--mainColor);
+}
 
 
 
@@ -457,7 +459,9 @@ td {
     font-size: 14px;
 }
 
-
+.download {
+    text-decoration: underline;
+}
 
 /* change the size of the webpage with the screen */
 @media screen and (max-width: 1200px){
